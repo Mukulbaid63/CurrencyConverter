@@ -39,6 +39,6 @@ let fromValue=currency.rates[resultFrom];
 let toValue=currency.rates[resultTo];
 let res=(toValue)/(fromValue);
 console.log(log);
-ans.innerHTML=res*log;
+ans.innerHTML="The converted amount is:"+ res*log;
 console.log("working2")
 }
